@@ -50,7 +50,7 @@ ul {
     gap: 16px;
 }
 
-#footer, .imgPlaceholder {
+#footer, .imgPlaceholder, #signLetter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,11 +94,14 @@ img {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    margin-bottom: 0;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 .letterBox {
@@ -109,6 +112,7 @@ img {
     border-radius: 5px;
     margin: 32px 64px;
     color: #f9faf8;
+    width: 75%;
 }
 
 .letterBox button {
@@ -157,4 +161,21 @@ button {
 
 .box {
     width: 200px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.letterInfo p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.letterInfo p {
+    margin: 0;
+}
+
+.letterInfo {
+    margin: 32px 0;
 }
